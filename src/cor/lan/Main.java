@@ -1,5 +1,6 @@
 package cor.lan;
 
+import java.io.File;
 import java.io.IOException;
 import java.nio.file.*;
 
@@ -16,7 +17,7 @@ public class Main {
         DirectoryStream.Filter<Path> filter = Files::isRegularFile;
 
         Path directory = FileSystems.getDefault().
-                getPath("FileTree\\Dir2");
+                getPath("FileTree" + File.separator + "Dir2");
         try (DirectoryStream<Path> contents =
                      Files.newDirectoryStream(directory, filter)) {
             for(Path file : contents) {
@@ -25,6 +26,31 @@ public class Main {
 
         } catch (IOException | DirectoryIteratorException exception) {
             System.out.println(exception.getMessage());
+        }
+
+        String separator = File.separator;
+        System.out.println(separator);
+        separator = FileSystems.getDefault().getSeparator();
+        System.out.println(separator);
+
+        try {
+            Path tempFile = Files.createTempFile("myapp", ".appext");
+            System.out.println("Temporary file path = " + tempFile.toAbsolutePath());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        //if your disks are default names, e.g. “C:”, store.name() will not display anything
+        Iterable<FileStore> stores = FileSystems.getDefault().getFileStores();
+        for(FileStore store : stores) {
+            System.out.println("Volume name/Drive letter: " + store);
+            System.out.println("Store name: " + store.name());
+        }
+
+        //To find the drive letter, or root of your machine
+        Iterable<Path> rootPaths = FileSystems.getDefault().getRootDirectories();
+        for(Path path : rootPaths) {
+            System.out.println(path);
         }
     }
 }
