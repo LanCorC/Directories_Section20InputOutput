@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a067abf-c89f-4faf-bdfc-0c0c600e282e" name="Changes" comment="Section 20.343(JavaFX; Walk File Tree): introduced to the FileVisitor interface, its SimpleFileVisitor implementing class for .preVisitDirectory() and .postVisitDirectory() for different use cases; how to handle errors, use Files.walkFileTree(path, filevisitor)">
-      <change afterPath="$PROJECT_DIR$/src/cor/lan/cor/lan/CopyFiles.java" afterDir="false" />
+    <list default="true" id="8a067abf-c89f-4faf-bdfc-0c0c600e282e" name="Changes" comment="Section 20.344(JavaFX; Copy Entire Tree): adding remaining results of running the code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cor/lan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cor/lan/Main.java" afterDir="false" />
     </list>
@@ -99,7 +98,21 @@
       <option name="project" value="LOCAL" />
       <updated>1691470682678</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Section 20.344(JavaFX; Copy Entire Tree): introduction to path.relativize(path) and path.resolve(path), concepts of sourcePath, sourceRoot, targetRoot for purposes of copying entire trees. demonstrated how SimpleFileVisitor can be extended on/overriden to implement how a tree can be copied as File.walkFileTree() is called">
+      <created>1691477175280</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691477175280</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Section 20.344(JavaFX; Copy Entire Tree): adding remaining results of running the code">
+      <created>1691477211572</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691477211572</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +130,8 @@
     <MESSAGE value="Section 20.341(JavaFX; Read Existing Directory Contents): introduced reading directory contents through DirectoryStream&lt;Path&gt; in try-with-resources, Files.newDirectoryStream(path instance, optionalFilter or glob); and how to work with filters glob or DirectoryStream.Filter&lt;Path&gt;" />
     <MESSAGE value="SSection 20.342(JavaFX; Separators Temp Files and File Stores): introduced how to soft-code fileSeparator, how to create temporary files, how to find fileStores" />
     <MESSAGE value="Section 20.343(JavaFX; Walk File Tree): introduced to the FileVisitor interface, its SimpleFileVisitor implementing class for .preVisitDirectory() and .postVisitDirectory() for different use cases; how to handle errors, use Files.walkFileTree(path, filevisitor)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 20.343(JavaFX; Walk File Tree): introduced to the FileVisitor interface, its SimpleFileVisitor implementing class for .preVisitDirectory() and .postVisitDirectory() for different use cases; how to handle errors, use Files.walkFileTree(path, filevisitor)" />
+    <MESSAGE value="Section 20.344(JavaFX; Copy Entire Tree): introduction to path.relativize(path) and path.resolve(path), concepts of sourcePath, sourceRoot, targetRoot for purposes of copying entire trees. demonstrated how SimpleFileVisitor can be extended on/overriden to implement how a tree can be copied as File.walkFileTree() is called" />
+    <MESSAGE value="Section 20.344(JavaFX; Copy Entire Tree): adding remaining results of running the code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 20.344(JavaFX; Copy Entire Tree): adding remaining results of running the code" />
   </component>
 </project>
