@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a067abf-c89f-4faf-bdfc-0c0c600e282e" name="Changes" comment="Section 20.341(JavaFX; Read Existing Directory Contents): introduced reading directory contents through DirectoryStream&lt;Path&gt; in try-with-resources, Files.newDirectoryStream(path instance, optionalFilter or glob); and how to work with filters glob or DirectoryStream.Filter&lt;Path&gt;">
+    <list default="true" id="8a067abf-c89f-4faf-bdfc-0c0c600e282e" name="Changes" comment="SSection 20.342(JavaFX; Separators Temp Files and File Stores): introduced how to soft-code fileSeparator, how to create temporary files, how to find fileStores">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cor/lan/PrintNames.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cor/lan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cor/lan/Main.java" afterDir="false" />
     </list>
@@ -32,23 +34,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lance/Documents/CodingJava/Directories_Section20InputOutput&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/lance/Documents/CodingJava/Directories_Section20InputOutput",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lance\Documents\CodingJava\Directories_Section20InputOutput" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="cor.lan.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cor.lan.Main" />
       <module name="Directories_Section20InputOutput" />
       <extension name="coverage">
@@ -63,7 +66,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.cor.lan.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -83,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691133545413</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="SSection 20.342(JavaFX; Separators Temp Files and File Stores): introduced how to soft-code fileSeparator, how to create temporary files, how to find fileStores">
+      <created>1691393242547</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691393242547</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,6 +109,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Section 20.341(JavaFX; Read Existing Directory Contents): introduced reading directory contents through DirectoryStream&lt;Path&gt; in try-with-resources, Files.newDirectoryStream(path instance, optionalFilter or glob); and how to work with filters glob or DirectoryStream.Filter&lt;Path&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 20.341(JavaFX; Read Existing Directory Contents): introduced reading directory contents through DirectoryStream&lt;Path&gt; in try-with-resources, Files.newDirectoryStream(path instance, optionalFilter or glob); and how to work with filters glob or DirectoryStream.Filter&lt;Path&gt;" />
+    <MESSAGE value="SSection 20.342(JavaFX; Separators Temp Files and File Stores): introduced how to soft-code fileSeparator, how to create temporary files, how to find fileStores" />
+    <option name="LAST_COMMIT_MESSAGE" value="SSection 20.342(JavaFX; Separators Temp Files and File Stores): introduced how to soft-code fileSeparator, how to create temporary files, how to find fileStores" />
   </component>
 </project>
